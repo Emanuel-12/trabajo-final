@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eff2ff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  justify-content: center;
+}
+
+nav img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav input[type=text] {
+  margin: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+.contenedor {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contenedor img {
+  height: 100px;
+  border-radius: 30%;
+}
+
+h1 {
+  margin: 20px;
+}
+
+ul {
+  list-style:none ;
+  margin: 0;
+  padding: 0;
+ display: flex;
+ justify-content: space-around;
+ flex-direction: row;
+} 
+
+li {
+  display:flex;
+  align-items: center;
+  margin: 20px;
+  
+
+}
+
+li img {
+  height:80px; 
+   margin-right:20px; 
+   
+}
+
+
+
+form {
+    max-width :500px; 
+    margin :0 auto; 
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 37px; 
+    border :1px solid #ccc; 
+    height: 50%;
+    background-color: #3cdcff;
+    
+}
+
+form label{
+    display:block; 
+    margin-bottom :3px; 
+}
+
+form input[type=text], form input[type=email]{
+    width :100%; 
+    padding :10px; 
+    margin-bottom :px; 
+}
+
+form input[type=submit]{
+    display:block; 
+    margin-top :20px; 
+    padding :10px,20px; 
+   
+}
+
+footer {
+  background-color: #333;
+  padding: 1px;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.elfooter {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  
+}
+.elfooter a {
+  color: white;
+}
+
+.pelicula1{
+   padding: 30px;
+  background-color:#fff5ee;
+  
+  
+}
+.pelicula2{
+  background-color:#fff5ee ;
+  padding: 50px;
+}
+figcaption{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.peliculayserie{
+  padding: 10px;
+  
+}
+.peliculayserie img{
+  height: 200px;
+  width: 400px;
+}
+.peliculayserie figcaption {
+   font-size: 25px;
+}
+
+.categoria{
+  
+  font-size: larger;
+}
+.categoria img{
+  height: 100px;
+  padding: 10px;
+  width: 200px;
+}
+h3{
+  font-size: 22px;
+}
+.elfooter img{
+  width: 30px;
+  
+}
